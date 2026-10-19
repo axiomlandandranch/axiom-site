@@ -22,8 +22,12 @@ header a{text-decoration:none;color:var(--gold);font-weight:600}
 section{padding:56px 20px}
 .wrap{max-width:1000px;margin:0 auto}
 h2{color:var(--g);margin:0 0 20px;font-size:1.8rem;border-bottom:3px solid var(--gold);display:inline-block}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}
-.card{background:#fff;border-top:4px solid var(--gold);padding:20px;border-radius:6px;font-weight:600;color:var(--g);box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:#fff;border-top:4px solid var(--gold);padding:20px;border-radius:6px;color:var(--g);box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.card h3{margin:0 0 8px;font-size:1.15rem}
+.card p{margin:0 0 10px;color:var(--ink)}
+.card ul{margin:0;padding-left:20px;color:var(--ink);font-weight:400}
+.note{margin:20px 0 0;font-style:italic}
 .cta{background:var(--g);color:#fff}
 .cta h2{color:#fff}
 footer{background:#14281c;color:#d9d9d0;text-align:center;padding:28px 20px}
@@ -41,12 +45,14 @@ footer a{color:var(--gold)}
 <section id="services"><div class="wrap">
 <h2>Services</h2>
 <div class="cards">
-<div class="card">Land clearing</div>
-<div class="card">Site and pad work</div>
-<div class="card">Roads</div>
-<div class="card">Barns</div>
-<div class="card">Ranch management</div>
-</div></div></section>
+<div class="card"><h3>Land clearing</h3><p>Cedar and brush removal done to fit the land and how you use it. We can clear selectively, leaving oaks and shade trees standing.</p><ul><li>Cedar and brush removal</li><li>Selective clearing around oaks and shade trees</li><li>Brush pile burning or hauling where permitted</li><li>Fence-line and pasture clearing</li></ul></div>
+<div class="card"><h3>Site and pad work</h3><p>Grading and rough site prep for the places you plan to build. We shape the ground so water moves away from it.</p><ul><li>Graded pads for homes, shops, barns and slabs</li><li>Drainage shaping</li><li>Rough site prep</li><li>Base material</li></ul></div>
+<div class="card"><h3>Roads</h3><p>Ranch and entry roads, built new or repaired. Built to carry everyday truck and trailer traffic.</p><ul><li>Ranch and entry roads built or repaired</li><li>Drainage and culverts where needed</li><li>Base and surfacing for truck and trailer traffic</li></ul></div>
+<div class="card"><h3>Barns</h3><p>Barn, shop and outbuilding projects coordinated from site prep through completion. We work with the trades involved so you have one point of contact.</p><ul><li>Barns and shops</li><li>Outbuildings</li><li>Site prep through completion</li><li>Coordination with the trades involved</li></ul></div>
+<div class="card"><h3>Ranch management</h3><p>Ongoing care for your land, handled for you. A good fit for owners who live out of town.</p><ul><li>Brush control</li><li>Road and fence upkeep</li><li>Seasonal checks</li><li>Single point of contact for out-of-town owners</li></ul></div>
+</div>
+<p class="note">Scope is confirmed at a site walk.</p>
+</div></section>
 <section id="estimate" class="cta"><div class="wrap">
 <h2>Free remote cedar estimate</h2>
 <p>Send us a pin of your property. We measure the acreage from satellite imagery and send a preliminary estimate, free. A site walk then confirms the scope and price.</p>
