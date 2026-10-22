@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axiomlandandranch.com/sitemap.xml
